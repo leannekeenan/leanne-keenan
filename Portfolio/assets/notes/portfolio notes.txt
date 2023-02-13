@@ -1,0 +1,83 @@
+
+
+
+
+
+
+.whatIDo {
+    background-image:url('https://i.ibb.co/60d2Cm1/desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .whatIDo-text {
+    padding: 10% 0;
+  }
+
+  .whatIDo p {
+    margin: 0  10%;
+  }
+
+  .whatIDo-text {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+
+pink: fdbec6
+alice blue: f0f8ff
+purple: cca2f8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leanne has always had an interested in helping people solve propblems and wanted to have a creative way to do it. 
+
+
+
+
+
+.whatIDo {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.whatIDo-text {
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 15px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.whatIDo-img {
+  border-radius: 15px;
+}
+
+
+
+  .whatIDo-text {
+    margin: 0 auto;
+    padding: 5%;
+    width: 80%;
+  }
+
+  .whatIDo {
+    background-size: cover;
+  }

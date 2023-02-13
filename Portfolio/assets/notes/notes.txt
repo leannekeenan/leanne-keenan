@@ -1,0 +1,82 @@
+    
+    <nav class="nav mainNav">
+      <ul class="mainNav-links">
+          <li class="mainNav-link">
+            <a href="#">
+              Home
+            </a>
+          </li>
+          <li class="mainNav-link">
+            <a href="#">
+              What I Do
+            </a>
+          </li>
+          <li class="mainNav-link">
+            <a href="#">
+              Who I Am
+            </a>
+          </li>
+          <li class="mainNav-link">
+            <a href="#">
+              My Work
+            </a>
+          </li>
+          <li class="mainNav-link">
+            <a href="#">
+              Connect
+            </a>
+          </li>
+      </ul>
+    </nav>
+
+    <header class="myName">
+      <h1>Leanne Keenan</h1>
+    </header>
+
+    <div class="tagline">
+      <p>Full Stack Developer • Baking Enthusiast • Dragon Slayer</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <nav class="nav socialNav">
+      <ul class="socialNav-links">
+          <li class="socialNav-link">
+            <a href="#">
+              <i class='fa fa-twitter' style='color:#642e93'>
+              </i>
+            </a>
+          </li>
+          <li class="socialNav-link">
+            <a href="#">
+              <i class='fa fa-linkedin' style='color:#642e93'>
+              </i>
+            </a>
+          </li>
+          <li class="socialNav-link">
+            <a href="#">
+              <i class='fa fa-github' style='color:#642e93'>
+              </i>
+            </a>
+          </li>
+          <li class="socialNav-link">
+            <a href="">
+              <i class='fa fa-envelope' style='color:#642e93'>
+              </i>
+            </a>
+          </li>
+      </ul>
+    </nav>
+</main>

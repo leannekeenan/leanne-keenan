@@ -1,0 +1,560 @@
+/*Desktop Styling*/
+* {
+  box-sizing: border-box;
+  font-family: 'Arvo', serif;
+  color: rgb(71, 71, 71);
+}
+
+body{ 
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(204,162,248,1) 8%, rgba(240,248,255,1) 68%);
+  
+}
+
+.navbar {
+  height: 50px;
+  margin: 0 1rem;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 20px 0 0 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style-type: none;
+  z-index: 1;
+}
+
+.navbar-links a{
+  text-decoration: none;
+  font-size: 1.05rem;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: rgba(100, 46, 147, .6);
+  border-radius: 15px;
+}
+
+.navbar-links a:hover{
+  color: #F5F5F5;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  z-index: 3;
+}
+
+.toggle-button .bar {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+.header span, .header h1{
+  display: block;
+  text-align: center;
+  color: rgb(71, 71, 71);
+}
+
+.header h1 {
+  padding-top: 15rem;
+  font-size: 4.5rem;
+}
+
+.header span {
+  font-size: 1.5rem;
+  color: rgba(71, 71, 71, 0.8);
+  padding-bottom: 3.25rem;
+}
+
+.socialNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialNav i {
+  position: relative;
+  font-size: 1rem;
+  border: 1px solid rgb(100, 46, 147);
+  border-radius: 50%;
+  padding: 15px;
+  margin: 1rem;
+}
+
+.socialNav li {
+  list-style-type: none;
+}
+
+.socialNav i:hover {
+  background-color: rgb(210, 226, 235, 0.8);
+}
+
+.whatIDo {
+  display: flex;
+  background-color: rgb(240, 248, 255);
+  padding: 0 5%;
+}
+
+.whatIDo-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  text-align: center;
+  width: 60%;
+  margin: 0 5%; 
+}
+
+.whatIDo h2 {
+  font-size: 1.75rem;
+}
+
+.whatIDo p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin:  5%; 
+}
+
+.whatIDo-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.whatIDo a {
+  text-decoration: none;
+  background-color: rgb(100, 46, 147);
+  color:rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.whatIDo a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(100, 46, 147);
+  border: 1px solid rgb(100, 46, 147);
+}
+
+.whoIAm {
+  text-align: center;
+  padding: 4rem;
+  background: linear-gradient(180deg, rgba(240,248,255,1) 25%, rgba(204,162,248,1) 100%);
+}
+
+.whoIAm img {
+  width: 17rem;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.whoIAm p {
+  margin: 5% 15%;
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  font-size: 1.25rem;
+}
+
+.whoIAm .credentials {
+  background-color: rgba(100, 46, 147, 0.7);
+  border: 2px solid rgba(100, 46, 147, 0.5);
+  border-radius: 15px;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whoIAm .column {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  border-radius: 15px;
+  border: 2px solid rgb(100, 46, 147);
+}
+
+.column ul {
+  list-style: none;
+  padding: 1% 0;
+  width: 100%;
+}
+
+.column li {
+  text-decoration: none;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.myWork {
+  background: linear-gradient(180deg, rgba(204,162,248,1) 8%, rgba(240,248,255,1) 68%);
+  
+}
+
+.recentProjects {
+  margin: 0 auto;
+  padding: 50px 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a:hover {
+  font-size: 17px;
+}
+
+.project {
+  margin: 0 auto;
+}
+
+.projectImage:hover {
+  box-shadow: 0 0 30px rgba(13, 2, 22, 0.7);
+}
+
+.projectImage {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.projectName {
+  text-align: center;
+}
+
+.seeMore h3{
+  margin: 0;
+  padding: 25px 0 50px 0;
+  text-align: center;
+}
+
+.githubIcon {
+  display: flex;
+  margin: 0 auto;
+  height: 75px; 
+}
+
+.seeMore a {
+  margin: 0 auto;
+  width: 75px;
+}
+
+.contact {
+  background: linear-gradient(180deg, rgba(240,248,255,1) 0%, rgba(159,111,210,1) 100%);
+  padding-bottom: 50px;
+}
+
+.contact h3{
+  margin-top: 0;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.contactForm {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  max-width: 600px;
+  background-color: rgba(100, 46, 147, 0.9);
+  border-radius: 10px;;
+}
+
+fieldset {
+  background-color:rgba(197, 161, 228, 0.3);
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  color: white;
+}
+
+legend {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center
+}
+
+.aboutYou input {
+  width: 250px;
+  padding: 10px 0;
+  margin: 5px;
+  background-color: rgba(100, 46, 147, .5);
+  color: rgb(240, 248, 255)
+}
+
+.aboutYouInputs::placeholder {
+  color: white;
+}
+
+.howICanHelp input {
+  margin:0 15px;
+}
+
+.options {
+  color:rgb(240, 248, 255);
+  font-weight: 100;
+}
+
+.response {
+  background-color: rgba(100, 46, 147, .5);
+  width: 80%;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color:rgb(240, 248, 255)
+}
+
+
+
+.contact button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 175px;
+  height: 35px;
+  background-color: rgba(159,111,210, 1);
+  color:rgb(240, 248, 255);
+  border-radius: 10px;
+}
+
+.contact button:hover {
+  color:rgba(100, 46, 147, 0.9);
+  background-color:rgb(240, 248, 255);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  padding-right: 50px;
+  background-color: #A070D3;
+}
+
+.copyright {
+  color:rgb(240, 248, 255);
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+/*Mobile Styling*/
+
+
+@media(max-width: 1200px) {
+  main {
+    background: linear-gradient(180deg, rgba(240,248,255,1) 0%, rgba(159,111,210,1) 100%);
+  }
+
+  .socialNav i {
+    background-color: rgba(236, 242, 253, 0.3);
+  }
+
+  .whatIDo {
+    background-image:url('/assets/desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .whatIDo-text {
+    padding: 5% 0;
+    width: 100%;
+
+  }
+
+  .whatIDo p {
+    margin: 10%;
+  }
+
+  .whatIDo-text {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .whoIAm {
+    background: linear-gradient(180deg, rgba(204,162,248,1) 0%, rgba(240,248,255,1) 40%);
+  }
+
+  .whoIAm p {
+    margin: 5%;
+  }
+
+  .myWork {
+    background: linear-gradient(180deg, rgba(240,248,255,1) 25%, rgba(204,162,248,1) 100%);
+  }
+
+  .whoIAm .credentials {
+    flex-direction: column;
+    margin: 15% 10%;
+  }
+
+  .whoIAm .column {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .contact {
+    background: linear-gradient(180deg, rgba(204,162,248,1) 8%, rgba(240,248,255,1) 68%);
+  }
+
+  .howICanHelp input #text{
+    display: block;
+  }
+
+  footer {
+    background-color:rgb(240, 248, 255);
+  }
+
+  .copyright {
+    color: rgb(106, 53, 153);
+  }
+}
+
+
+@media(max-width: 700px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.7);
+    margin: 0;
+    padding: 12% 0 5% 0;
+    z-index: 2;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links a {
+    padding: 0.5rem 1rem;
+  }
+
+  #home {
+    offset-position:1rem ;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+  
+  .whoIAm img {
+    border-radius: 50%;
+  }
+
+  .whatIDo p, .whoIAm p, .whoIAm li {
+    font-size: 1.15rem;
+  }
+
+  .aboutYou input {
+    width: 200px
+  }
+}
+
+
+@media(max-width: 520px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header span {
+    font-size: 1.15rem;
+  }
+
+  .whatIDo-text h2 {
+    padding: 0 5%;
+    margin: 0;
+  }
+
+  .whatIDo-text p {
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .whoIAm {
+    width: 100%;
+    padding: .5rem;
+  }
+
+  .whatIDo p, .whoIAm p, .whoIAm li {
+    font-size: 1rem;
+  }
+
+}

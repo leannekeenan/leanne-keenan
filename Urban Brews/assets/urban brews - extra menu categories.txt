@@ -1,0 +1,145 @@
+
+        <div class="menuItems sweetTreats">
+            <article class="menu-item">
+                <img src="" alt="Marshmallow Pops">
+                <span class="description">Marshmallow Pops</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Cinnamon Roll">
+                <span class="description">Cinnamon Roll</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Cake Pops">
+                <span class="description">Cake Pops</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Chocolate Chip Cookie">
+                <span class="description">Chocolate Chip Cookie</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+
+            <article class="menu-item">
+                <img src="" alt="Peanut Butter Cookie">
+                <span class="description">Peanut Butter Cookie</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Snickerdoodle">
+                <span class="description">Snickerdoodle</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Gingersnap">
+                <span class="description">Gingersnap</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Butter Croissant">
+                <span class="description">Butter Croissant</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Chocolate Croissant">
+                <span class="description">Chocolate Croissant</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Bluberry Muffin">
+                <span class="description">Bluberry Muffin</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Apple Cinnamon Muffin">
+                <span class="description">Apple Cinnamon Muffin</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Peanut Butter Banana Muffin">
+                <span class="description">Peanut Butter Banana Muffin</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+        </div>
+
+        <div class="menuItems on-the-go">
+            <article class="menu-item">
+                <img src="" alt="Egg & Sausage Muffin">
+                <span class="description">Egg & Sausage Muffin</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Egg & ">
+                <span class="description">Egg & </span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Espresso">
+                <span class="description">Espresso</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Latte">
+                <span class="description">Latte</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Macchiatto">
+                <span class="description">Macchiatto</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Nitro Brew">
+                <span class="description">Nitro Brew</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Single Drip Coffee">
+                <span class="description">Single Drip Coffee</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+
+            <article class="menu-item">
+                <img src="" alt="Iced Coffee">
+                <span class="description">Iced Coffee</span>
+                <span class="price">$1.25</span>
+                <input type="number" min="0" placeholder="0">
+            </article>
+        </div>

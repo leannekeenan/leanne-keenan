@@ -1,0 +1,73 @@
+Detail-oriented front-end web developer with superb people-skills. Highly effective at developing and standardizing designs according to company brand and objectives. Seeking a full-time position that offers professional challenges while offering the opportunity to be creatively expressive.
+
+/*1. In the first line of the program, define a variable called userName that is set to an empty string. If the user wants, he or she can enter his or her name in between the quotation marks.*/
+let userName = 'Leanne';
+
+
+/*2. Below this variable, create a ternary expression that decides what to do if the user enters a name or not. If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console. Otherwise, simply log Hello!.*/
+userName === 'Leanne' ? console.log(`Hello ${userName}, and welcome to the Magic Eight Ball. `): console.log('Hello, and welcome to the Magic Eight Ball.');
+
+
+/*3. Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.*/
+let userQuestion = '"Will I have a promising career if I learn to code?"';
+
+/*4. Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!*/
+console.log(`I understand your question is ${userQuestion}.  The spirit of the Magic Eight Ball says:`);
+
+
+/*5. We need to generate a random number between 0 and 7.Create another variable, and name it randomNumber. Use Math.floor and Math.random to generate the required random number generator.*/
+let randomNumber = Math.floor(Math.random() * 8);
+
+/*6. Create one more variable named eightBall, and set it equal to an empty string. We will save a value to this variable in the next steps, depending on the value of randomNumber. */
+ let eightBall = '';
+
+ /*7. We need to create a control flow that takes in the randomNumber we made in step 4, and then assigns eightBall to a reply that a Magic Eight Ball would return. Think about utilizing if/else or switch statements. Here are 8 Magic Eight Ball phrases that we’d like to save to the variable eightBall:*/
+
+switch (randomNumber){
+  case 0: 
+  eightBall = 'It is Certain';
+  break;
+  case 1: 
+  eightBall = 'It is decidedly so';
+  break;
+  case 2: 
+  eightBall = 'Of Course!';
+  break;
+  case 3: 
+  eightBall = 'Indubitably!';
+  break;
+  case 4: 
+  eightBall = 'Count on it';
+  break;
+  case 5: 
+  eightBall = 'My sources say yes';
+  break;
+  case 6: 
+  eightBall = 'Outlook is so good';
+  break;
+  case 7: 
+  eightBall = 'Signs point to yes!';
+  break;
+  default:
+  console.log('Spirits are out, Come Again Later')
+  break;
+}
+
+/*8. Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable.*/
+console.log(eightBall);
+
+
+
+
+.ball{
+    position: relative;
+    margin: auto;
+    margin-top: 5vh;
+    padding-bottom: 15%;
+    height: auto;
+    padding-top: 60%;
+    width: 75%;
+    border-radius: 50%;
+    background: radial-gradient( grey, black);
+    color: var(--light);
+}

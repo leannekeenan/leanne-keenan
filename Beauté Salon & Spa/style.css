@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: #1e121c;
+}
+
+body {
+    background-color: rgba(245, 206, 212, 0.3);
+}
+
+main {
+    background-image: url('/assets/main\ II.jpg');
+    background-position: top;
+    background-size: fit-content;
+    height: 919px;
+}
+
+main .navbar {
+   float: right;
+   text-align: center;
+   padding: 2em;
+}
+
+.toggle-button {
+    position: relative;
+    font-family: 'Dancing SCript', cursive;
+    font-size: 1.5em;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+}
+
+
+main .navbar {
+    left: 0;
+    right: 0;
+    font-size: 1em;
+    width: auto;
+    padding: 10px;
+}
+
+main nav div ul {
+    background-color: rgba(211, 174, 174, 1.0);
+    width: 100%;
+    border-radius: 5px;;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(175, 130, 99);
+}
+
+.navbar-links li a {
+    font-size: 0.75em;
+}
+
+main .container {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 20%;
+    left: 55%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 75px;
+    
+}
+
+main ,.container .headline {
+    font-size: 1.6em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+main h4 {
+    font-size: 0.75em;
+    padding-bottom: 30px;
+}
+
+main h3 {
+    padding-bottom: 30px;
+}
+
+main .container a {
+    background-color: rgba(211, 174, 174);
+    font-size: 0.75em;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+main .container a:hover {
+    background-color: rgb(175, 130, 99);
+}
+
+.navbar-links{
+    display: none;
+    position: relative;
+}
+
+.navbar-links ul{
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.navbar-links li {
+    padding: 30px 0;
+}
+
+.navbar-links li a {
+    color: white;
+    font-size: 0.75em;
+}
+
+.navbar-links.active{
+    display: flex;
+}
+
+.staff {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.staff h3 {
+    font-size: 2em;
+}
+
+.staff  .container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.staff img {
+    display: inline-flex;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.staff p{
+    font-weight: 800;
+}
+
+.staff span {
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.testimonials {
+    margin: 1% auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+.testimonials div {
+    padding: 20px 30px;
+}
+
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin: 50px auto;
+    padding: 35px;
+}
+
+.services input[type="radio"] {
+    display: none;
+}
+
+.services label {
+    padding: 25px;
+    background-color: rgba(245, 206, 212, 0.3);
+    font-weight: bold;
+    border-radius: 5px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.services .tab {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    order: 1;
+    display: none;
+    border-radius: 5px;
+}
+
+.services p{
+    font-size: 1.15em;
+    padding-bottom: 30px;;
+}
+
+.services input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.services input[type="radio"]:checked + label  {
+    background-color: white;
+}
+
+.lookbook section {
+    margin-top: 100px;
+}
+
+.hairstyles, .nailart {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 70vw;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.style {
+    background-color: #af8263;
+    height: 350px;
+    width: 275px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+    
+}
+
+
+
+.promo h3 {
+    font-size: 5em;
+}
+
+.promo p {
+    font-size: 2em;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.promo .promo-img {
+    width: auto;
+    height: auto;
+    max-height: 600px;
+    max-width: 400px;
+    
+}
+
+.contact {
+    text-align: center;
+}
+
+.reservation {
+    padding-bottom: 50px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contact input {
+    height: 30px;
+}
+
+.contact #name, .contact #email, .contact #number {
+    display: inline-flex;
+    width: 25%; 
+    height: 50px;
+}
+
+.serviceOptions {
+    width: 90%;
+    margin: 0 auto;
+    display: inline-grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 5px 10px;
+}
+
+.serviceOption {
+    text-align: center; 
+}
+
+
+.date, .time {
+    width: 40%;
+    display: inline-flex;
+    height: 70px;
+    
+}
+
+.date input, .time select {
+    width: 100%;
+    height: 40px;
+}
+
+.serviceOptions span {
+    text-align: left;
+}
+
+.reservation button {
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(211, 174, 174, 1.0);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;;
+}
+
+@media (max-width: 1200px) {
+
+    main {
+        background-image: url("/assets/main\ II\ tablet.png");
+        background-repeat: no-repeat;
+        height: 850px;
+        background-position: top;
+    }
+
+   
+   
+
+    .promo {
+        flex-direction: column;
+    }
+
+    .promo .promo-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .contact #name, .contact #email, .contact #number {
+        display: block;
+        margin: 0 auto;
+        width: 50%; 
+    }
+}
+
+
+@media(max-width: 900px) {
+    main .container {
+        width: 80%;
+        left: 10%;
+    }
+
+    .style {
+        height: 300px;
+        width: 200px;
+    }
+
+    .promo div {
+        padding: 100px 50px;
+    }
+
+}
+
+
+@media(max-width: 475px) {
+
+    main {
+        background-image: url("/assets/main\ II\ mobile.png");
+        height: 850px;
+        background-position: top;
+    }
+
+    main .container {
+        width: 90%;
+        
+    }
+
+    .toggle-button {
+        font-size: 1em;
+        display: inline;
+    }
+
+    main .navbar {
+        left: 0;
+        right: 0;
+        font-size: 1em;
+        width: auto;
+        padding: 10px;
+    }
+
+    main nav div ul {
+        background-color: rgba(211, 174, 174, 1.0);
+        width: 100%;
+        border-radius: 5px;;
+    }
+
+    .navbar-links li:hover {
+        background-color: #af8263;
+    }
+
+    .navbar-links li a {
+        font-size: 0.75em;
+    }
+
+    main .container {
+        position: absolute;
+        height: auto;
+        top: 20%;
+        left: 5%;
+        right: 5%;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 5px;
+        padding: 15px;
+        
+    }
+
+    main ,.container .headline {
+        font-size: 1.6em;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    main h4 {
+        font-size: 0.75em;
+        padding-bottom: 30px;
+    }
+
+    main h3 {
+        padding-bottom: 30px;
+    }
+
+    main .container a {
+        background-color: rgba(211, 174, 174);
+        color: rgb;
+        font-size: 0.6em;
+        padding: 15px;
+    }
+
+    .staff img {
+        width: 150px;
+        height: 225px;
+    }
+
+    .contact #name, .contact #email, .contact #number {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .date, .time  {
+        width: 50%;
+    }
+
+    
+}

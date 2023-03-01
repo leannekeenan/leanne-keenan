@@ -2,6 +2,8 @@
     text-align: center;
 }
 
+
+
 section {
     padding-bottom: 50px;
 }
@@ -9,6 +11,8 @@ section {
 img {
     display: flex;
     height: 500px;
+    width: 80%;
+    max-width: 600px;
     margin: 0 auto;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     position: relative;
@@ -24,6 +28,8 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    font-weight: 800;
+    font-size: 25px;;
 }
 
 .description {
@@ -34,4 +40,10 @@ img {
     text-align: center;
     padding: 25px;
     margin: 0 auto;
+}
+
+@media(max-width: 400px) {
+    img {
+        height: 300px;
+    }
 }

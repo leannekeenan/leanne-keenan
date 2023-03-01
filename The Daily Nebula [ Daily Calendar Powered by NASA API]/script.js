@@ -1,4 +1,4 @@
-fetch("https://go-apod.herokuapp.com/apod")
+fetch("https://api.nasa.gov/planetary/apod?api_key=hZ7NOTCBoWdhjN98rrFroBgKPBczMQsD9Ol60StZ")
 .then(res => res.json())
 .then( data => {
     console.log(data)

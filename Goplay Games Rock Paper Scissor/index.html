@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+   
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav-logo" src="https://i.ibb.co/7y9NsRV/rock-paper-scissors.png" alt="rock-paper-scissors">
+        <header class="header">Rock Paper Scissor</header>
+    </nav>
+    
+    <main class="wrapper">
+        <h1 class="beginGame">Please choose 'Rock', 'Paper', or 'Scissors' to begin the game</h1>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="https://i.ibb.co/vkbV0C5/stone.png" alt="stone">
+            </div>
+            <div class="choice" id="paper">
+                <img src="https://i.ibb.co/SBVPS6H/paper.png" alt="paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="https://i.ibb.co/BrzvLVR/scissors.png" alt="scissors">
+            </div>
+        </div>
+
+        <div class="game">
+            <div class="plays">
+                <div class="playCard">
+                    <div class="image">
+                        <output id="playerChoice"></output> 
+                    </div>
+                    <h2 class="player" id="user">You</h2>
+                </div>
+                <h4 class="vs">vs.</h4>
+                <div class="playCard">
+                    <div class="image">
+                        <output id="aiChoice"></output>   
+                   </div>
+                   <h2 class="player" id="AI">A.I</h2>
+                </div>
+            </div>
+
+            <div class="referee">
+                <div class="winlosedraw">
+                    <output class="decision">f</output>
+                </div>
+            </div>
+        </div>
+
+        <div class="scoreboard">
+            <div id="score">
+                <p class="result" id="win">
+                    <strong class="outcome">Games Won: </strong>
+                    <span id="wins">0</span>
+                </p>
+                <p class="result" id="draw">
+                    <strong class="outcome">Draws: </strong>
+                    <span id="draws">0</span>
+                </p>
+                <p class="result" id="lose">
+                    <strong class="outcome">Games Lost: </strong>
+                    <span id="losses">0</span>
+                </p>
+            </div>
+            <div class="reset">
+                <p id="reset">Reset Scores</p>
+            </div> 
+        </div>
+    </main>
+   
+    <footer class="footer">
+        <h4 class="copy">Rock Paper Scissor &copy; 2022</h4>
+    </footer>
+    <script href="script.js"></script>  
+</body>
+</html>

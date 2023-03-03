@@ -1,0 +1,72 @@
+
+.wrapper, .choiceImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beginGame{
+    text-align: center;
+    margin: 5vh 10%;
+}
+
+.choices, .player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices img, .game img, .image{
+    height: 15vh;
+    max-height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.choices img:hover{
+    box-shadow: 4px 4px 4px 4px rgb(163, 163, 163);
+    border-radius: 15px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    padding: 3%;
+    cursor: pointer;
+    width: 20vw;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.scoreboard{
+    position: relative;
+    height: auto;  
+    width: 85%;
+    margin: auto;
+}
+
+.scoreboard p, span, strong{
+    font-size: 85%;
+}
+
+.reset{
+    text-align: center;
+    cursor: pointer;
+}
+
+.reset p{
+    font-size: 70%;
+    color: rgb(63, 63, 63);
+    text-shadow: 1px 1px rgb(189, 52, 2);
+}

@@ -1,0 +1,214 @@
+1.  get 'your choices' to remain hightlighted after clicked
+2. have 'computer-output' auto generate a response qithin the square
+	function getComputerChoice (
+
+3
+4
+5
+6
+7
+8
+
+let yourChoice = document.querySelector('option')
+
+
+let playerWins = 0;
+let compWins = 0;
+let draw = 0;
+
+var playerRoll;
+
+var gameMessage = $('#game-result');
+var scoreboard = $('#scoreboard');
+
+//rock
+$('.rock').click(function(){
+    playerRoll = 1;
+    var compRoll = Math.floor(Math.random() * 3 + 1);
+    //draw
+    if(compRoll === playerRoll){
+        gameMessage.fadeOut(300, function(){
+            gameMessage.html('').append('<p class="game-draw>Draw!</p>' + 'you both choose rock</p>').fadeIn(300);
+            draw++;
+            $('#draw').html('').append(draw);
+        });
+    }else if(playerRoll === 1 && compRoll === 2){
+        gameMessage.fadeOut(300, function(){
+            gameMessage.html('').append('<p></p>' + '<p></p>')
+        })
+    }
+})
+//
+
+
+paper
+
+//scissors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <main>
+        <h2 class="choose">Your Choice</h2>
+        <div id="options">
+            <img class="option" src="https://i.ibb.co/vkbV0C5/stone.png" onclick="hand('rock')" alt="stone" id="rock">
+            <img class="option" src="https://i.ibb.co/SBVPS6H/paper.png" onclick="hand('paper')" alt="paper" id="paper">
+            <img class="option" src="https://i.ibb.co/BrzvLVR/scissors.png" onclick="hand('scissors')" alt="scissors" id="scissors">
+        </div>
+        <h2 class="vs">vs.</h2>
+        <h2 class="computer-choice">Computer's Choice</h2>
+        <div id="computerChoice">
+            <output id="output"></output>
+        </div>
+        <div class="game-result">
+            <output id="result"></output>
+        </div>
+        <output id="winner"></output>
+        <div class="scoreboard">
+            <div id="scoreboard">
+                <p class="result" id="win">
+                    <strong>Games Won: </strong>
+                    <span id="wins">0</span>
+                </p>
+                <p class="result" id="draw">
+                    <strong>Draws: </strong>
+                    <span id="draws">0</span>
+                </p>
+                <p class="result" id="lose">
+                    <strong>Games Lost: </strong>
+                    <span id="losses">0</span>
+                </p>
+            </div>
+            <p class="reset" id="reset">Reset Scores</p>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+.header{
+    font-size:var(--font-size);
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: calc(var(--nav-height) / 2) 0;
+   
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option{
+    height: 15vw;
+    max-height: 150px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.option:hover, .option:active{
+    box-shadow: 4px 4px 4px 4px rgb(163, 163, 163);
+    border-radius: 15px;
+}
+
+.vs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.computer-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: calc(var(--nav-height) / 2) 0;
+}
+
+#computerChoice{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  
+}
+
+#output{
+    height: 15vw;
+    max-height: 150px;
+    padding: 30px;
+    box-shadow: 4px 4px 4px 4px rgb(163, 163, 163);
+    border-radius: 15px;
+    width: 15vw;
+    max-width: 150px;
+    margin-bottom: 3%;
+}
+
+.game-win{
+    color: rgb(0, 128, 0);
+    font-size: calc(var(--font-sixe) * 1.5);
+}
+
+.game-lose{
+    color: rgb(255, 0, 0);
+    font-size: calc(var(--font-sixe) * 1.5);
+}
+
+.game-draw{
+    color: rgb(10, 10, 101);
+    font-size: calc(var(--font-sixe) * 1.5);
+}
+
+.compMessage{
+    font-size: 18px;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.scoreboard{
+    height: auto;
+    background-color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);  
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
